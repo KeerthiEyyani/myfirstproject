@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>basic</title>
+  <style>
+  body{
+    background-color:#6df2d8;
+  }
+  .title{
+    background-color:white;
+    margin:auto;
+    padding-left:20px;
+    padding-bottom:20px;
+    border-radius:20px;1
+  }
+  .head{
+    color:#eb3495;
+  }
+  .form-field input,form-field select{
+    width:80%;
+    padding:10px;
+  }
+  @media (max-width:436px){
+    .container{
+      width:90%;
+    }
+  }
+  button{
+    background-color:green;
+    color:white;
+    border:none;
+    padding:10px;
+    width:45%;
+    border-radius:10px;
+    font-size:1.3rem
+  }
+  </style>
+</head>
+<body>
+  <form class="title" action="./logout.html">
+    <h1 class="head"><u>register</u></h1>
+  <p class="form-field">
+    <input type="text"placeholder="enter your name" required/>
+  </p>
+  <p class="form-field">
+    <input type="email"placeholder="enter your mail" required/>
+  </p>
+  <p class="form-field">
+    <input type="password"placeholder="enter your password" required/>
+  </p>
+  <p class="form-radio">
+    <input type="radio"name="gender"/>male
+    <input type="radio"name="gender"/>female
+  </p>
+  <p class="form-field">
+    <input type="date"
+      placeholder="enter your date of birth" required/>
+  </p>
+  <p>
+    <select reqired>
+      <option value="">selete your state </option>
+       <option value="">ap</option>
+       <option value="">ts</option>
+       <option value="">dl</option>
+       <option value="">mh</option>
+       <option value="">hr</option>
+    </select>
+  </p>
+  <p>
+    <input type="file">
+  </p>
+   <button>submit </button>
+  </form>
+</body>
+</html>
